@@ -3,8 +3,8 @@
 
 # Front matter
 lang: ru-RU
-title: "Отчет по лабораторной работе 2"
-subtitle: "Управление версиями"
+title: "Отчет по лабораторной работе 5"
+subtitle: "Основы интерфейса взаимодействия пользователя с системой Unix на уровне командной строки"
 author: "Шалыгин Георгий Эдуардович"
 
 # Formatting
@@ -19,10 +19,10 @@ papersize: a4paper
 documentclass: scrreprt
 polyglossia-lang: russian
 polyglossia-otherlangs: english
-mainfont: PT Serif
-romanfont: PT Serif
-sansfont: PT Sans
-monofont: PT Mono
+mainfont: Courier New
+romanfont: Courier New
+sansfont: Courier New
+monofont: Courier New
 mainfontoptions: Ligatures=TeX
 romanfontoptions: Ligatures=TeX
 sansfontoptions: Ligatures=TeX,Scale=MatchLowercase
@@ -114,7 +114,29 @@ header-includes:
 
 # Список иллюстраций
 
-[Рис 1. Создание репозитория на гитхаб](https://docs.google.com/document/d/1onBq9kpazvDpFYvZHfNWI5tFz8S5tAiSjOI4Npoj0S4/edit#bookmark=id.k7dv2nvo0uhm)[Рис 2. Инициализация git в рабочем каталоге](https://docs.google.com/document/d/1onBq9kpazvDpFYvZHfNWI5tFz8S5tAiSjOI4Npoj0S4/edit#bookmark=id.qq7s4qbuejl3)[Рис 3. Создание README.md](https://docs.google.com/document/d/1onBq9kpazvDpFYvZHfNWI5tFz8S5tAiSjOI4Npoj0S4/edit#bookmark=id.b3wtzqzdm8b5)[Рис 4. Первый коммит и отправка на гитхаб](https://docs.google.com/document/d/1onBq9kpazvDpFYvZHfNWI5tFz8S5tAiSjOI4Npoj0S4/edit#bookmark=id.u195r38ubwtj)[Рис 5. Файл лицензии](https://docs.google.com/document/d/1onBq9kpazvDpFYvZHfNWI5tFz8S5tAiSjOI4Npoj0S4/edit#bookmark=id.u8k7tbz0am5b)[Рис 6. Файл .gitignore](https://docs.google.com/document/d/1onBq9kpazvDpFYvZHfNWI5tFz8S5tAiSjOI4Npoj0S4/edit#bookmark=id.smwvgvb9n9yj)[Рис 7. Коммит и отправка результата на гитхаб](https://docs.google.com/document/d/1onBq9kpazvDpFYvZHfNWI5tFz8S5tAiSjOI4Npoj0S4/edit#bookmark=id.hlinc43x98dv)[Рис 8. Инициализация git flow](https://docs.google.com/document/d/1onBq9kpazvDpFYvZHfNWI5tFz8S5tAiSjOI4Npoj0S4/edit#bookmark=id.ng7n97f865wy)[Рис 9. Создание нового релиза и файла с номером версии](https://docs.google.com/document/d/1onBq9kpazvDpFYvZHfNWI5tFz8S5tAiSjOI4Npoj0S4/edit#bookmark=id.e2rpor6lubu)[Рис 10. Добавление изменений в индекс](https://docs.google.com/document/d/1onBq9kpazvDpFYvZHfNWI5tFz8S5tAiSjOI4Npoj0S4/edit#bookmark=id.f8zbc8rv3q76)[Рис 11. Отправка данных на гитхаб](https://docs.google.com/document/d/1onBq9kpazvDpFYvZHfNWI5tFz8S5tAiSjOI4Npoj0S4/edit#bookmark=id.6ukoqs9u4txa)[Рис 12. Окно создания релиза ](https://docs.google.com/document/d/1onBq9kpazvDpFYvZHfNWI5tFz8S5tAiSjOI4Npoj0S4/edit#bookmark=id.tval6lxc009n)[Рис 13. Окно с готовым релизом ](https://docs.google.com/document/d/1onBq9kpazvDpFYvZHfNWI5tFz8S5tAiSjOI4Npoj0S4/edit#bookmark=id.tval6lxc009n)
+[Рис 1. Создание репозитория на гитхаб](-@fig:001)
+
+[Рис 2. Инициализация git в рабочем каталоге](https://docs.google.com/document/d/1onBq9kpazvDpFYvZHfNWI5tFz8S5tAiSjOI4Npoj0S4/edit#bookmark=id.qq7s4qbuejl3)
+
+[Рис 3. Создание README.md](https://docs.google.com/document/d/1onBq9kpazvDpFYvZHfNWI5tFz8S5tAiSjOI4Npoj0S4/edit#bookmark=id.b3wtzqzdm8b5)
+
+[Рис 4. Первый коммит и отправка на гитхаб](https://docs.google.com/document/d/1onBq9kpazvDpFYvZHfNWI5tFz8S5tAiSjOI4Npoj0S4/edit#bookmark=id.u195r38ubwtj)
+
+[Рис 5. Файл лицензии](https://docs.google.com/document/d/1onBq9kpazvDpFYvZHfNWI5tFz8S5tAiSjOI4Npoj0S4/edit#bookmark=id.u8k7tbz0am5b)
+
+[Рис 6. Файл .gitignore](https://docs.google.com/document/d/1onBq9kpazvDpFYvZHfNWI5tFz8S5tAiSjOI4Npoj0S4/edit#bookmark=id.smwvgvb9n9yj)
+
+[Рис 7. Коммит и отправка результата на гитхаб](https://docs.google.com/document/d/1onBq9kpazvDpFYvZHfNWI5tFz8S5tAiSjOI4Npoj0S4/edit#bookmark=id.hlinc43x98dv)
+
+[Рис 8. Инициализация git flow](https://docs.google.com/document/d/1onBq9kpazvDpFYvZHfNWI5tFz8S5tAiSjOI4Npoj0S4/edit#bookmark=id.ng7n97f865wy)
+
+[Рис 9. Создание нового релиза и файла с номером версии](https://docs.google.com/document/d/1onBq9kpazvDpFYvZHfNWI5tFz8S5tAiSjOI4Npoj0S4/edit#bookmark=id.e2rpor6lubu)
+
+[Рис 10. Добавление изменений в индекс](https://docs.google.com/document/d/1onBq9kpazvDpFYvZHfNWI5tFz8S5tAiSjOI4Npoj0S4/edit#bookmark=id.f8zbc8rv3q76)
+
+[Рис 11. Отправка данных на гитхаб](https://docs.google.com/document/d/1onBq9kpazvDpFYvZHfNWI5tFz8S5tAiSjOI4Npoj0S4/edit#bookmark=id.6ukoqs9u4txa)
+
+[Рис 12. Окно создания релиза ](https://docs.google.com/document/d/1onBq9kpazvDpFYvZHfNWI5tFz8S5tAiSjOI4Npoj0S4/edit#bookmark=id.tval6lxc009n)[Рис 13. Окно с готовым релизом ](https://docs.google.com/document/d/1onBq9kpazvDpFYvZHfNWI5tFz8S5tAiSjOI4Npoj0S4/edit#bookmark=id.tval6lxc009n)
 
 # Теоретическое введение:
 
